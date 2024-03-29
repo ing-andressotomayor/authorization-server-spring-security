@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: user
+  profiles:
+    include:
+      - database-connection
+      - messages-exception
+      - authority
+server:
+  port: 8081
+
